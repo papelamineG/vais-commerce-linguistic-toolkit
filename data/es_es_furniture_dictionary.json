@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0",
+  "total_controls": 14,
+  "groups": [
+    {
+      "control_id": "es-color-negro",
+      "display_name": "ES Color Gender: Negro / Negra (Black)",
+      "category": "color_gender",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "Black",
+      "query_terms": [],
+      "synonyms": [
+        "negro",
+        "negra",
+        "negros",
+        "negras",
+        "azabache"
+      ],
+      "notes": "Matches masculine/feminine black color queries in Spanish"
+    },
+    {
+      "control_id": "es-color-blanco",
+      "display_name": "ES Color Gender: Blanco / Blanca (White)",
+      "category": "color_gender",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "White",
+      "query_terms": [],
+      "synonyms": [
+        "blanco",
+        "blanca",
+        "blancos",
+        "blancas",
+        "blanco roto",
+        "blanca rota"
+      ],
+      "notes": "Matches masculine/feminine white color queries without French 'blanc' collision"
+    },
+    {
+      "control_id": "es-color-rojo",
+      "display_name": "ES Color Gender: Rojo / Roja (Red)",
+      "category": "color_gender",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "Red",
+      "query_terms": [],
+      "synonyms": [
+        "rojo",
+        "roja",
+        "rojos",
+        "rojas",
+        "burdeos",
+        "granate",
+        "carmesí",
+        "carmesi",
+        "teja"
+      ],
+      "notes": "Matches masculine/feminine red queries without English 'red' collision"
+    },
+    {
+      "control_id": "es-color-gris",
+      "display_name": "ES Color Gender: Gris / Grises / Antracita (Gray)",
+      "category": "color_gender",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "Gray",
+      "query_terms": [],
+      "synonyms": [
+        "gris",
+        "grises",
+        "antracita",
+        "marengo",
+        "topo",
+        "gris claro",
+        "gris oscuro"
+      ],
+      "notes": "Covers singular/plural gray shades in Spanish"
+    },
+    {
+      "control_id": "es-color-marron",
+      "display_name": "ES Color Gender & Accent: Marrón / Castaño (Brown)",
+      "category": "color_gender",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "Brown",
+      "query_terms": [],
+      "synonyms": [
+        "marrón",
+        "marron",
+        "marrones",
+        "castaño",
+        "castano",
+        "castana",
+        "castaña",
+        "camel",
+        "chocolate",
+        "nogal",
+        "roble"
+      ],
+      "notes": "Covers brown and wood tones with/without accents"
+    },
+    {
+      "control_id": "es-color-amarillo",
+      "display_name": "ES Color Gender: Amarillo / Amarilla (Yellow)",
+      "category": "color_gender",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "Yellow",
+      "query_terms": [],
+      "synonyms": [
+        "amarillo",
+        "amarilla",
+        "amarillos",
+        "amarillas",
+        "mostaza",
+        "ocre"
+      ],
+      "notes": "Matches masculine/feminine yellow and mustard shades"
+    },
+    {
+      "control_id": "es-color-dorado",
+      "display_name": "ES Color Gender: Dorado / Dorada (Gold)",
+      "category": "color_gender",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "Yellow",
+      "query_terms": [],
+      "synonyms": [
+        "dorado",
+        "dorada",
+        "dorados",
+        "doradas",
+        "oro",
+        "latón",
+        "laton",
+        "champán",
+        "champan"
+      ],
+      "notes": "Matches gold/brass finishes across genders and accents"
+    },
+    {
+      "control_id": "es-color-plateado",
+      "display_name": "ES Color Gender: Plateado / Plateada (Silver)",
+      "category": "color_gender",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "Gray",
+      "query_terms": [],
+      "synonyms": [
+        "plateado",
+        "plateada",
+        "plateados",
+        "plateadas",
+        "plata",
+        "cromado",
+        "cromada",
+        "acero inoxidable"
+      ],
+      "notes": "Matches silver/chrome finishes across genders"
+    },
+    {
+      "control_id": "es-cat-sillon",
+      "display_name": "ES Category & Accent: Sillón / Butaca / Poltrona",
+      "category": "category_synonym",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "sillón",
+        "sillon",
+        "sillones",
+        "butaca",
+        "butacas",
+        "poltrona",
+        "sillón relax",
+        "sillon relax"
+      ],
+      "notes": "Armchair synonyms and unaccented variants"
+    },
+    {
+      "control_id": "es-cat-sofa",
+      "display_name": "ES Category & Accent: Sofá / Sofa / Chaise Longue",
+      "category": "category_synonym",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "sofá",
+        "sofa",
+        "sofás",
+        "sofas",
+        "sofá cama",
+        "sofa cama",
+        "chaiselongue",
+        "chaise longue"
+      ],
+      "notes": "Sofa queries with and without acute accent"
+    },
+    {
+      "control_id": "es-cat-lampara",
+      "display_name": "ES Category & Accent: Lámpara / Luminaria / Plafón",
+      "category": "category_synonym",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "lámpara",
+        "lampara",
+        "lámparas",
+        "lamparas",
+        "luminaria",
+        "aplique",
+        "plafón",
+        "plafon",
+        "lámpara de pie",
+        "lampara de pie"
+      ],
+      "notes": "Lighting synonyms and unaccented variants"
+    },
+    {
+      "control_id": "es-cat-comoda",
+      "display_name": "ES Category & Accent: Cómoda / Sinfonier / Cajonera",
+      "category": "category_synonym",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "cómoda",
+        "comoda",
+        "cómodas",
+        "comodas",
+        "sinfonier",
+        "chifonier",
+        "cajonera"
+      ],
+      "notes": "Chest of drawers synonyms and unaccented forms"
+    },
+    {
+      "control_id": "es-cat-escritorio",
+      "display_name": "ES Category: Escritorio / Mesa de Estudio / Despacho",
+      "category": "category_synonym",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "escritorio",
+        "escritorios",
+        "mesa de estudio",
+        "mesa de oficina",
+        "mesa de ordenador",
+        "mesa de despacho"
+      ],
+      "notes": "Desk and home-office table synonyms"
+    },
+    {
+      "control_id": "es-cat-estanteria",
+      "display_name": "ES Category & Accent: Estantería / Balda / Repisa",
+      "category": "category_synonym",
+      "language_code": "es-ES",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "estantería",
+        "estanteria",
+        "estanterías",
+        "estanterias",
+        "estante",
+        "balda",
+        "baldas",
+        "repisa",
+        "librería",
+        "libreria"
+      ],
+      "notes": "Shelving and bookcase synonyms + unaccented forms"
+    }
+  ]
+}

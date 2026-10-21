@@ -1,0 +1,5 @@
+google-genai>=1.0.0
+google-cloud-retail>=1.18.0
+google-auth>=2.28.0
+pydantic>=2.6.0
+python-dotenv>=1.0.0

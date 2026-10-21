@@ -1,0 +1,617 @@
+{
+  "schema_version": "1.0",
+  "total_controls": 30,
+  "groups": [
+    {
+      "control_id": "pt-color-preto",
+      "display_name": "PT Color Gender: Preto / Preta (Black)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Black",
+      "query_terms": [],
+      "synonyms": [
+        "preto",
+        "preta",
+        "pretos",
+        "pretas",
+        "negro",
+        "negra",
+        "negros",
+        "negras"
+      ],
+      "notes": "Matches masculine catalog color 'Preto' when shoppers query feminine nouns like 'cadeira preta' or 'mesa preta'"
+    },
+    {
+      "control_id": "pt-color-branco",
+      "display_name": "PT Color Gender: Branco / Branca (White)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "White",
+      "query_terms": [],
+      "synonyms": [
+        "branco",
+        "branca",
+        "brancos",
+        "brancas",
+        "branco roto",
+        "branca rota"
+      ],
+      "notes": "Matches masculine/feminine and plural white inflections"
+    },
+    {
+      "control_id": "pt-color-cinzento",
+      "display_name": "PT Color Gender: Cinzento / Cinzenta / Cinza (Gray)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Gray",
+      "query_terms": [],
+      "synonyms": [
+        "cinzento",
+        "cinzenta",
+        "cinzentos",
+        "cinzentas",
+        "cinza",
+        "gris",
+        "antracite",
+        "toupeira"
+      ],
+      "notes": "Covers European Portuguese 'cinzento/cinzenta' and short form 'cinza'"
+    },
+    {
+      "control_id": "pt-color-castanho",
+      "display_name": "PT Color Gender: Castanho / Castanha (Brown)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Brown",
+      "query_terms": [],
+      "synonyms": [
+        "castanho",
+        "castanha",
+        "castanhos",
+        "castanhas",
+        "marrom",
+        "camel",
+        "caramelo",
+        "nogueira",
+        "carvalho"
+      ],
+      "notes": "Matches masculine/feminine brown and wood-tone color adjectives"
+    },
+    {
+      "control_id": "pt-color-bege",
+      "display_name": "PT Color Gender: Bege / Creme / Cru (Beige)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Yellow",
+      "query_terms": [],
+      "synonyms": [
+        "bege",
+        "beges",
+        "creme",
+        "cru",
+        "crua",
+        "areia",
+        "marfim",
+        "linho natural"
+      ],
+      "notes": "Covers neutral/beige tones across masculine and feminine adjectives"
+    },
+    {
+      "control_id": "pt-color-vermelho",
+      "display_name": "PT Color Gender: Vermelho / Vermelha (Red)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Red",
+      "query_terms": [],
+      "synonyms": [
+        "vermelho",
+        "vermelha",
+        "vermelhos",
+        "vermelhas",
+        "encarnado",
+        "encarnada",
+        "bordeaux",
+        "bordo",
+        "grená",
+        "grena",
+        "telha"
+      ],
+      "notes": "Covers red/burgundy masculine and feminine forms without English 'red' pollution"
+    },
+    {
+      "control_id": "pt-color-azul",
+      "display_name": "PT Color Gender: Azul / Azuis (Blue)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Blue",
+      "query_terms": [],
+      "synonyms": [
+        "azul",
+        "azuis",
+        "azul-marinho",
+        "azul marinho",
+        "azul celeste",
+        "turquesa",
+        "azul petróleo",
+        "azul petroleo"
+      ],
+      "notes": "Covers singular/plural and common compound blue shades"
+    },
+    {
+      "control_id": "pt-color-verde",
+      "display_name": "PT Color Gender: Verde / Verdes (Green)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Green",
+      "query_terms": [],
+      "synonyms": [
+        "verde",
+        "verdes",
+        "verde-oliva",
+        "verde oliva",
+        "verde menta",
+        "verde água",
+        "verde agua",
+        "caqui",
+        "kaki",
+        "sálvia",
+        "salvia"
+      ],
+      "notes": "Covers green shades and unaccented variants"
+    },
+    {
+      "control_id": "pt-color-amarelo",
+      "display_name": "PT Color Gender: Amarelo / Amarela (Yellow)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Yellow",
+      "query_terms": [],
+      "synonyms": [
+        "amarelo",
+        "amarela",
+        "amarelos",
+        "amarelas",
+        "mostarda",
+        "ocre"
+      ],
+      "notes": "Matches masculine/feminine yellow and mustard shades"
+    },
+    {
+      "control_id": "pt-color-dourado",
+      "display_name": "PT Color Gender: Dourado / Dourada (Gold)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Yellow",
+      "query_terms": [],
+      "synonyms": [
+        "dourado",
+        "dourada",
+        "dourados",
+        "douradas",
+        "ouro",
+        "latão",
+        "latao",
+        "champanhe"
+      ],
+      "notes": "Matches metallic gold finishes across genders and accents"
+    },
+    {
+      "control_id": "pt-color-prateado",
+      "display_name": "PT Color Gender: Prateado / Prateada (Silver)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Gray",
+      "query_terms": [],
+      "synonyms": [
+        "prateado",
+        "prateada",
+        "prateados",
+        "prateadas",
+        "prata",
+        "cromado",
+        "cromada",
+        "inox"
+      ],
+      "notes": "Matches silver/chrome finishes across genders"
+    },
+    {
+      "control_id": "pt-color-laranja",
+      "display_name": "PT Color Gender: Laranja / Terracota (Orange)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Orange",
+      "query_terms": [],
+      "synonyms": [
+        "laranja",
+        "laranjas",
+        "cor-de-laranja",
+        "terracota",
+        "coral",
+        "pêssego",
+        "pessego",
+        "acobreado",
+        "acobreada"
+      ],
+      "notes": "Covers orange"
+    },
+    {
+      "control_id": "pt-color-rosa",
+      "display_name": "PT Color Gender: Rosa / Cor-de-rosa (Pink)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Pink",
+      "query_terms": [],
+      "synonyms": [
+        "rosa",
+        "rosas",
+        "cor-de-rosa",
+        "cor de rosa",
+        "fúcsia",
+        "fucsia",
+        "rosa velho",
+        "rosa pálido",
+        "rosa palido"
+      ],
+      "notes": "Covers pink and fuchsia with/without accents"
+    },
+    {
+      "control_id": "pt-color-roxo",
+      "display_name": "PT Color Gender: Roxo / Roxa / Lilás (Purple)",
+      "category": "color_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "Purple",
+      "query_terms": [],
+      "synonyms": [
+        "roxo",
+        "roxa",
+        "roxos",
+        "roxas",
+        "lilás",
+        "lilas",
+        "violeta",
+        "lavanda",
+        "berinjela",
+        "beringela"
+      ],
+      "notes": "Covers purple/lilac masculine"
+    },
+    {
+      "control_id": "pt-cat-cadeirao",
+      "display_name": "PT Category & Accent: Cadeirão / Poltrona",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "cadeirão",
+        "cadeirao",
+        "cadeirões",
+        "cadeiroes",
+        "poltrona",
+        "poltronas",
+        "cadeira de braços",
+        "cadeira de bracos"
+      ],
+      "notes": "Equates European/Brazilian Portuguese armchair terms and strips tilde diacritics"
+    },
+    {
+      "control_id": "pt-cat-sofa",
+      "display_name": "PT Category & Accent: Sofá / Sofa",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "sofá",
+        "sofa",
+        "sofás",
+        "sofas",
+        "canapé",
+        "canape",
+        "sofá-cama",
+        "sofa-cama",
+        "chaise longue"
+      ],
+      "notes": "Matches accented and unaccented sofa queries"
+    },
+    {
+      "control_id": "pt-cat-secretaria",
+      "display_name": "PT Category & Accent: Secretária / Escrivaninha",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "secretária",
+        "secretaria",
+        "secretárias",
+        "secretarias",
+        "escrivaninha",
+        "escrivaninhas",
+        "mesa de escritório",
+        "mesa de escritorio"
+      ],
+      "notes": "Equates desk synonyms and unaccented spellings"
+    },
+    {
+      "control_id": "pt-cat-candeeiro",
+      "display_name": "PT Category & Accent: Candeeiro / Luminária / Abajur",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "candeeiro",
+        "candeeiros",
+        "luminária",
+        "luminaria",
+        "luminárias",
+        "luminarias",
+        "abajur",
+        "lâmpada",
+        "lampada",
+        "plafon",
+        "aplique"
+      ],
+      "notes": "Covers Portuguese lighting synonyms and accent-free forms"
+    },
+    {
+      "control_id": "pt-cat-candeeiro-pe",
+      "display_name": "PT Category & Accent: Candeeiro de Pé / Chão",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "candeeiro de pé",
+        "candeeiro de pe",
+        "luminária de pé",
+        "luminaria de pe",
+        "candeeiro de chão",
+        "candeeiro de chao"
+      ],
+      "notes": "Floor lamp queries with and without acute/tilde diacritics"
+    },
+    {
+      "control_id": "pt-cat-armario",
+      "display_name": "PT Category & Accent: Armário / Roupeiro / Guarda-roupa",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "armário",
+        "armario",
+        "armários",
+        "armarios",
+        "roupeiro",
+        "roupeiros",
+        "guarda-roupa",
+        "guarda-fatos"
+      ],
+      "notes": "Wardrobe and cabinet synonyms + unaccented forms"
+    },
+    {
+      "control_id": "pt-cat-comoda",
+      "display_name": "PT Category & Accent: Cómoda / Camiseiro / Gaveteiro",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "cómoda",
+        "comoda",
+        "cômoda",
+        "cómodas",
+        "comodas",
+        "camiseiro",
+        "gaveteiro",
+        "bloco de gavetas"
+      ],
+      "notes": "Chest of drawers in European/Brazilian spelling + unaccented forms"
+    },
+    {
+      "control_id": "pt-cat-aparador",
+      "display_name": "PT Category & Accent: Aparador / Buffet / Consola",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "aparador",
+        "aparadores",
+        "buffet",
+        "consola",
+        "consolas",
+        "credência",
+        "credencia",
+        "móvel de entrada",
+        "movel de entrada"
+      ],
+      "notes": "Sideboard and console table synonyms + accent variants"
+    },
+    {
+      "control_id": "pt-cat-estante",
+      "display_name": "PT Category & Accent: Estante / Prateleira",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "estante",
+        "estantes",
+        "prateleira",
+        "prateleiras",
+        "livreiro",
+        "nicho de parede"
+      ],
+      "notes": "Shelving and bookcase synonyms"
+    },
+    {
+      "control_id": "pt-cat-banco",
+      "display_name": "PT Category: Banco / Banqueta / Tamborete / Pufe",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "banco",
+        "bancos",
+        "banco alto",
+        "banqueta",
+        "banquetas",
+        "tamborete",
+        "tamboretes",
+        "pufe",
+        "puff"
+      ],
+      "notes": "Stools"
+    },
+    {
+      "control_id": "pt-cat-mesa-cabeceira",
+      "display_name": "PT Category & Accent: Mesa de Cabeceira",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "mesa de cabeceira",
+        "mesinha de cabeceira",
+        "mesas de cabeceira",
+        "mesa de apoio"
+      ],
+      "notes": "Nightstand and side table synonyms"
+    },
+    {
+      "control_id": "pt-cat-movel-tv",
+      "display_name": "PT Category & Accent: Móvel TV / Rack TV",
+      "category": "category_synonym",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "móvel tv",
+        "movel tv",
+        "móvel de tv",
+        "movel de tv",
+        "móveis tv",
+        "moveis tv",
+        "rack tv"
+      ],
+      "notes": "TV stand queries with and without acute accent on móvel/móveis"
+    },
+    {
+      "control_id": "pt-mat-madeira",
+      "display_name": "PT Material Gender: Madeira / Amadeirado",
+      "category": "material_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "madeira",
+        "amadeirado",
+        "amadeirada",
+        "olmo",
+        "carvalho",
+        "acácia",
+        "acacia",
+        "teca",
+        "nogueira",
+        "pinho",
+        "freixo"
+      ],
+      "notes": "Wood materials and accented/unaccented wood species"
+    },
+    {
+      "control_id": "pt-mat-metal",
+      "display_name": "PT Material Gender & Accent: Aço / Metálico / Ferro",
+      "category": "material_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "aço",
+        "aco",
+        "metal",
+        "metálico",
+        "metalico",
+        "metálica",
+        "metalica",
+        "ferro",
+        "alumínio",
+        "aluminio"
+      ],
+      "notes": "Metal materials across genders and cedilla/acute accents"
+    },
+    {
+      "control_id": "pt-mat-veludo",
+      "display_name": "PT Material Gender: Veludo / Aveludado / Chenille",
+      "category": "material_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "veludo",
+        "aveludado",
+        "aveludada",
+        "bombazina",
+        "chenille",
+        "borreguito",
+        "bouclé",
+        "boucle"
+      ],
+      "notes": "Upholstery fabric synonyms and gender inflections"
+    },
+    {
+      "control_id": "pt-mat-fibras",
+      "display_name": "PT Material & Accent: Rotim / Rattan / Vime / Algodão",
+      "category": "material_gender",
+      "language_code": "pt-PT",
+      "rule_type": "twoway",
+      "canonical_color_family": "",
+      "query_terms": [],
+      "synonyms": [
+        "rotim",
+        "rattan",
+        "ratã",
+        "rata",
+        "vime",
+        "bambu",
+        "juta",
+        "algodão",
+        "algodao",
+        "linho"
+      ],
+      "notes": "Natural fibers with tilde/unaccented equivalents"
+    }
+  ]
+}
